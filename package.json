@@ -1,0 +1,31 @@
+{
+  "name": "expresssequelizepug-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node server"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ana8281/expressSequelizePug-Bootstrap.git"
+  },
+  "author": "Ana Arbelaez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ana8281/expressSequelizePug-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Ana8281/expressSequelizePug-Bootstrap#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9"
+  }
+}

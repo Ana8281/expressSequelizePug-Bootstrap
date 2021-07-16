@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em aventure
+
+block content
+    main.container.mt-5
+        h2.text-center.mb-5 About Us
+        .row.mb-5
+            .col-md-6
+                p auctor pharetra lorem at rhoncus. Aliquam aliquam lectus tellus. Sed porta neque id ex aliquet elementum. Duis et eros diam. Quisque elementum cursus rutrum. Pellentesque sagittis eleifend sem eget faucibus. Nullam dictum libero id ipsum tristique, et consequat velit hendrerit. Cras erat risus, fringilla sit amet eros vel, vestibulum lacinia risus. Aliquam in luctus magna. Aliquam a finibus lectus. Nullam arcu lacus, tincidunt nec gravida eu, tincidunt quis orci. Duis consequat semper elementum.
+                p auctor pharetra lorem at rhoncus. Aliquam aliquam lectus tellus. Sed porta neque id ex aliquet elementum. Duis et eros diam. Quisque elementum cursus rutrum. Pellentesque sagittis eleifend sem eget faucibus. Nullam dictum libero id ipsum tristique, et consequat velit hendrerit. Cras erat risus, fringilla sit amet eros vel, vestibulum lacinia risus. Aliquam in luctus magna. Aliquam a finibus lectus. Nullam arcu lacus, tincidunt nec gravida eu, tincidunt quis orci. Duis consequat semper elementum.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="image about us" class="img-fluid")
+
+        .row
+            include ./layout/travels_block
+    
+    .descuento
+        .container
+            h3 5% discount
+            p.titulo Travel to Canada
+            p.fecha march 20 2022 - march 28 2022
+            p.precio $2500
+
+    .container
+        h2.mt-5.text-center Testimoniales
+        include ./layout/testimonials_block
